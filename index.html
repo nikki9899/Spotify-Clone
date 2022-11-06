@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-One stop for all your musical desires</title>
+    <link rel="stylesheet" href="Styling.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brlogo"><img src="/Web Development/Spotify Clone/spotify-logo-png-7053.png" alt="Spoity">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+       
+        <div class="songs">
+            <h2>Hip Hop</h2>
+            <div class="songItemContainer">
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Scene Change-Qaab,Rebel,Abix</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="0" class="fa-solid  fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">AFSANAY  Young Stunners  Talhah Yunus  Talha Anjum</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="1" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Imran Khan- On My Way X Meez</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="2" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">MC STΔN -EK DIN PYAAR  TADIPAAR</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="3" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Qaab X Abix  Prime Time</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="4" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Seedhe Maut  Namastute</span>
+                    <span class="songlistplay"><span class="length">2:25<i id="5" class="fa-solid fa-circle-play songItemPlay"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="song theme"></div>
+    </div>
+    <div class="foot">
+        <input type="range" name="range" id="progressbar" min="0" max="100" value="0">
+        <div class="icons">
+            <!-- fontawsomeicons -->
+            
+            <!-- <i class="fa-3x fa-solid fa-circle-pause"></i>   -->
+            <i class="fa-2x fa-solid fa-backward-step" id="Previous"></i>
+            <i class="fa-3x fa-solid fa-circle-play" id="playButton"></i>  
+            <i class="fa-2x fa-solid fa-forward-step" id="Next"></i>  
+        </div>
+        <div class="songInfo">
+            <img src="/Web Development/Spotify Clone/soundbareffect.gif" alt="" width="50px" id="effect"><span id="masterSongName" Scene Change-Qaab,Rebel,Abix></span>
+
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ed3f06ea97.js" crossorigin="anonymous"></script>
+    <script src="scripting.js"></script>
+</body>
+</html>
